@@ -69,7 +69,7 @@ const LoginRegister = () => {
                 <label><input type="checkbox" />
                     I agree to the terms & conditions
                 </label>
-                <a href="/"></a>
+                
             </div>
             <button type='submit'>Register</button>
             <div className='Register-Link'>
