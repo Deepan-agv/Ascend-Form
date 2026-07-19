@@ -38,11 +38,11 @@ const LoginRegister = () => {
                 <label><input type="checkbox" />
                     Remember Me
                 </label>
-                <a href="">Forgot Password?</a>
+                <a href="/">Forgot Password?</a>
             </div>
             <button type='submit'>Login</button>
             <div className='Register-Link'>
-                <p>Don't have an acoount? <a href="" onClick={registerLink}>Register</a></p> 
+                <p>Don't have an acoount? <a href="/" onClick={registerLink}>Register</a></p> 
             </div>
         </form>
       </div>
@@ -69,11 +69,11 @@ const LoginRegister = () => {
                 <label><input type="checkbox" />
                     I agree to the terms & conditions
                 </label>
-                <a href=""></a>
+                <a href="/"></a>
             </div>
             <button type='submit'>Register</button>
             <div className='Register-Link'>
-                <p>Already have an acoount? <a href="" onClick={loginLink}>Login</a></p>
+                <p>Already have an acoount? <a href="/" onClick={loginLink}>Login</a></p>
                  
             </div>
         </form>
