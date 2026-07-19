@@ -49,7 +49,7 @@ const LoginRegister = () => {
 
       <div className="form-box register">
         <form action="">
-            <h1>Registeration</h1>
+            <h1>Registration</h1>
             <div className='input-box'>
                 <input type="text" placeholder='Username' required/>
                 <FaUserAlt className='icon' />
